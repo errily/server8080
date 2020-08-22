@@ -1,0 +1,29 @@
+{
+  "name": "dashboard-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server8080.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "css-loader": "^3.5.3",
+    "express": "^4.17.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mysql": "^2.18.1",
+    "regenerator-runtime": "^0.13.5",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start-dev": "webpack-dev-server --config webpack.dev.js --",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "erril",
+  "license": "ISC"
+}
